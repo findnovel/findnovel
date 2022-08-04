@@ -1,0 +1,32 @@
+<template>
+    <svg viewBox="0 0 110 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line
+            x1="31.0219"
+            y1="35.9781"
+            x2="106.978"
+            y2="35.9781"
+            stroke="currentColor"
+            stroke-width="6.04378"
+            stroke-linecap="round"
+        />
+        <line
+            x1="74.9497"
+            y1="4"
+            x2="105.484"
+            y2="34.5341"
+            stroke="currentColor"
+            stroke-width="7"
+            stroke-linecap="round"
+        />
+        <line
+            x1="3.5"
+            y1="-3.5"
+            x2="46.6818"
+            y2="-3.5"
+            transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 71 66.4839)"
+            stroke="currentColor"
+            stroke-width="7"
+            stroke-linecap="round"
+        />
+    </svg>
+</template>

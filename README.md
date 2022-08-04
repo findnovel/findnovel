@@ -1,0 +1,2 @@
+# FindNovel
+<p align="center"><a href="https://eluda.hashnode.dev/meet-findnovel-your-new-reading-assistant"><img width="794" alt="FindNovel" src="https://user-images.githubusercontent.com/101929811/182150863-994a5fa2-9074-48c5-bf3c-9bc364828d5d.png"></a></p>

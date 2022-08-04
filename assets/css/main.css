@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer utilities {
+    .radial-glow {
+        background: radial-gradient(
+            ellipse at 50% 20%,
+            rgba(255, 255, 255, 0.09),
+            rgba(255, 255, 255, 0) 70%
+        );
+    }
+
+    .linear-glow {
+        background: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 1),
+            rgba(255, 255, 255, 0) 100%
+        );
+    }
+
+    .btn {
+        @apply cursor-pointer filter hover:brightness-110 active:brightness-90;
+    }
+}
+
+/* ----------------- General ----------------- */
+
+body {
+    @apply bg-primary-900 text-primary-50;
+}
+
+[inert] {
+    @apply filter brightness-50;
+}
+
+/* ----------------- Scrollbar ----------------- */
+
+::-webkit-scrollbar {
+    @apply w-3 bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border: 5px solid;
+    @apply rounded-full border-primary-900 bg-primary-300 hover:bg-primary-100;
+}
