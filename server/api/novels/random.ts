@@ -5,10 +5,10 @@ const config = useRuntimeConfig()
 
 export default defineEventHandler(async (event) => {
     const connection = await mysql.createConnection({
-        host: config.apiPsHost,
-        user: config.apiPsUsername,
-        password: config.apiPsPassword,
-        database: config.apiPsDatabase,
+        host: process.env.HOST,
+        user: process.env.USERNAME,
+        password: process.env.PASSWORD,
+        database: process.env.DATABASE,
         ssl: {
             rejectUnauthorized: true,
         },

@@ -1,7 +1,7 @@
 <template>
     <div>
         <section class="mt-24">
-            <h2 class="mx-4 text-4xl mb-6">FindNovel</h2>
+            <h2 class="mx-4 mb-6 text-4xl">FindNovel</h2>
             <a
                 href="mailto:me@eluda.dev"
                 class="btn flex w-full items-center gap-2 border-y-[1px] border-primary-800 bg-primary-900 px-4 py-2 text-left"

@@ -11,12 +11,4 @@ export default defineNuxtConfig({
     },
 
     css: ['~~/assets/css/main.css'],
-
-    runtimeConfig: {
-        // PlanetScale environment variables
-        apiPsHost: '',
-        apiPsUsername: '',
-        apiPsPassword: '',
-        apiPsDatabase: '',
-    },
 })
